@@ -1,0 +1,29 @@
+{
+  "name": "macao/macao",
+  "description": "A lightweight web framework for PHP 8",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Juan",
+      "email": "juan.valero@macao.fr"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Macao\\": "src/"
+    }
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "3.6.2",
+    "phpunit/phpunit": "^9.5.13"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\": "test/"
+    }
+  }
+}
